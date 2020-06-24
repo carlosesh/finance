@@ -56,7 +56,6 @@ et-xmlfile==1.0.1
 fastcache==1.1.0
 filelock==3.0.12
 flake8==3.7.9
-Flask==1.1.1
 fsspec==0.6.2
 future==0.18.2
 gevent==1.4.0
@@ -177,7 +176,6 @@ QDarkStyle==2.8
 QtAwesome==0.6.1
 qtconsole==4.6.0
 QtPy==1.9.0
-requests==2.22.0
 rope==0.16.0
 Rtree==0.9.3
 ruamel-yaml==0.15.87
