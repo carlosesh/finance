@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Funds
+{% endblock %}
+
+{% block main %}
+
+    <form action="/funds" method="post">
+        <div>Your current cash is: </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="currentFunds" placeholder={{"$%.2f"|format(currentCash)}} type="text" disabled>
+        </div>
+        <div>Funds that you will add: </div>
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" name="newFunds" placeholder="$100 USD" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Add</button>
+    </form>
+
+{% endblock %}

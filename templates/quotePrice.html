@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+    <p>A share of {{req["companyName"]}} ({{req["symbol"]}}) costs ${{req["latestPrice"]}}.</p>
+
+{% endblock %}
+
