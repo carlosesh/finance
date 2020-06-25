@@ -4,7 +4,6 @@ applaunchservices
 appnope
 appscript
 argh
-asncrypto
 astroid
 astropy
 atomicwrites
